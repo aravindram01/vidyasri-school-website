@@ -1,19 +1,19 @@
 import { useState, useEffect } from "react"
-import img1 from "../assets/banner1.jpg"
-import img2 from "../assets/banner2.jpg"
-import img3 from "../assets/banner3.jpg"
+import banner1 from "../assets/banner1.jpg"
+import banner2 from "../assets/banner2.jpg"
+import banner3 from "../assets/banner3.jpg"
 import result from "../assets/result.jpg"
 import teachers from "../assets/teachers.jpg"
 import transport from "../assets/transport.jpg"
 import smartclass from "../assets/smartclass.jpg"
 import experience from "../assets/experience.jpg"
 import coaching from "../assets/coaching.jpg"
-import resultImg from "../assets/events/result2025.jpg"
-import annualImg from "../assets/events/exam timetable.jpg"
-import admissionImg from "../assets/events/admission.jpg"
+import result from "../assets/events/result2025.jpg"
+import annual from "../assets/events/exam timetable.jpg"
+import admission from "../assets/events/admission.jpg"
 
 function Home() {
-  const images = [img1, img2, img3]
+  const images = [banner1, banner2, banner3]
 
   const [index, setIndex] = useState(0)
 
@@ -30,21 +30,21 @@ function Home() {
     title: "X & XII Result 2025",
     date: "May 2025",
     text: "Our students achieved excellent results in public exams.",
-    image: resultImg,
+    image: result,
     pdf: "/pdfs/result2025.pdf",
   },
   {
     title: "Admissions Open 2026–2027",
     date: "April 2026",
     text: "Admissions open from Pre-KG to XII Std.",
-    image: admissionImg,
+    image: admission,
     pdf: "/pdfs/admission.pdf",
   },
   {
     title: "Public Exam Timetable",
     date: "March 2026",
     text: "SSLC & HSC Timetable and Holidays.",
-    image: annualImg,
+    image: annual,
     pdf: "/pdfs/exam timetable.pdf",
   },
   ]

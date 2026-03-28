@@ -1,9 +1,9 @@
-import aboutBanner from "../assets/banner2.jpg"
+import banner2 from "../assets/banner2.jpg"
 import logo from "../assets/logo.png"
 import alumni1 from "../assets/alumni1.jpg"
 import alumni2 from "../assets/alumni2.jpg"
 import alumni3 from "../assets/alumni3.jpg"
-import teamImg from "../assets/team.jpg"
+import team from "../assets/team.jpg"
 
 function About() {
   return (
@@ -14,7 +14,7 @@ function About() {
       <section className="relative h-[280px] md:h-[380px]">
 
         <img
-          src={aboutBanner}
+          src={banner2}
           className="w-full h-full object-cover"
         />
 
@@ -147,7 +147,7 @@ function About() {
     <div>
 
       <img
-        src={teamImg}
+        src={team}
         className="w-full rounded-xl shadow"
       />
 

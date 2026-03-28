@@ -1,4 +1,4 @@
-import admissionBanner from "../assets/banner1.jpg"
+import banner1 from "../assets/banner1.jpg"
 import preschool from "../assets/preschool.jpg"
 import elementary from "../assets/elementary.jpg"
 import highschool from "../assets/highschool.jpg"
@@ -72,7 +72,7 @@ function Admissions() {
       {/* Hero */}
       <section className="relative h-[280px] md:h-[380px]">
         <img
-          src={admissionBanner}
+          src={banner1}
           alt="Admissions Banner"
           className="w-full h-full object-cover"
         />

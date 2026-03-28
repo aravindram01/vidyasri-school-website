@@ -1,4 +1,4 @@
-import facilityBanner from "../assets/banner3.jpg"
+import banner3 from "../assets/banner3.jpg"
 import smartclass from "../assets/smartclass.jpg"
 import transport from "../assets/transport.jpg"
 import coaching from "../assets/coaching.jpg"
@@ -65,7 +65,7 @@ function Facilities() {
     <div className="bg-gray-50">
       <section className="relative h-[280px] md:h-[380px]">
         <img
-          src={facilityBanner}
+          src={banner3}
           alt="School Facilities"
           className="w-full h-full object-cover"
         />
