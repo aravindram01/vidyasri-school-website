@@ -9,7 +9,7 @@ import smartclass from "../assets/smartclass.jpg"
 import experience from "../assets/experience.jpg"
 import coaching from "../assets/coaching.jpg"
 import result2025 from "../assets/events/result2025.jpg"
-import annual from "../assets/events/exam timetable.jpg"
+import annual from "../assets/events/examtimetable.jpg"
 import admission from "../assets/events/admission.jpg"
 
 function Home() {
