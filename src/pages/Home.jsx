@@ -1,6 +1,4 @@
 import { useState, useEffect } from "react"
-
-import logo from "../assets/logo.png"
 import img1 from "../assets/banner1.jpg"
 import img2 from "../assets/banner2.jpg"
 import img3 from "../assets/banner3.jpg"

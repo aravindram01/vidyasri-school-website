@@ -1,5 +1,4 @@
 import aboutBanner from "../assets/banner2.jpg"
-import schoolPhoto from "../assets/school.jpg"
 import logo from "../assets/logo.png"
 import alumni1 from "../assets/alumni1.jpg"
 import alumni2 from "../assets/alumni2.jpg"
