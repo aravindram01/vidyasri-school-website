@@ -8,7 +8,7 @@ import transport from "../assets/transport.jpg"
 import smartclass from "../assets/smartclass.jpg"
 import experience from "../assets/experience.jpg"
 import coaching from "../assets/coaching.jpg"
-import result from "../assets/events/result2025.jpg"
+import result2025 from "../assets/events/result2025.jpg"
 import annual from "../assets/events/exam timetable.jpg"
 import admission from "../assets/events/admission.jpg"
 
@@ -30,7 +30,7 @@ function Home() {
     title: "X & XII Result 2025",
     date: "May 2025",
     text: "Our students achieved excellent results in public exams.",
-    image: result,
+    image: result2025,
     pdf: "/pdfs/result2025.pdf",
   },
   {
